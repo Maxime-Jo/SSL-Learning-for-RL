@@ -5,6 +5,7 @@ source: Deep Re-inforcement Learning Hands On
 """
 import gym
 import numpy as np
+import collections
 
 """
 FIRE RESET Environment
