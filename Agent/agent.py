@@ -19,7 +19,7 @@ class Agent:
         self.exp_buffer = exp_buffer
         self._reset()
 
-    def _reset(self):
+    def _reset(self, env):
         self.state = env.reset()
         self.total_reward = 0.0
 
@@ -44,5 +44,5 @@ class Agent:
         self.state = new_state                              # initialise state
         if is_done:
             done_reward = self.total_reward
-            self._reset()
+            self._reset(env)
         return done_reward
