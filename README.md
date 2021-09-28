@@ -2,10 +2,12 @@
 
 
 # Members
-Maxime Jousset
-Nehal Pandey
-Vishal Ghor
-Nizar Islah
+In alphabetique order:
+- Maxime Jousset
+- Nehal Pandey
+- Nizar Islah
+- Vishal Ghor
+
 
 # Chosen Problem
 
