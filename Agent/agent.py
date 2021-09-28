@@ -17,10 +17,10 @@ class Agent:
     def __init__(self, env, exp_buffer):                     # env & exp_buffer
         self.env = env                                       
         self.exp_buffer = exp_buffer
-        self._reset(self.env)
+        self._reset()
 
-    def _reset(self, env):
-        self.state = env.reset()
+    def _reset(self):
+        self.state = self.env.reset()
         self.total_reward = 0.0
 
     def play_step(self, net, epsilon=0.0, device="cpu"):   
@@ -44,5 +44,5 @@ class Agent:
         self.state = new_state                              # initialise state
         if is_done:
             done_reward = self.total_reward
-            self._reset(env)
+            self._reset()
         return done_reward
