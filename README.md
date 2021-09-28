@@ -14,3 +14,8 @@ In alphabetique order:
 # Methodology
 
 # Process
+
+# Bibliography
+- Deep Reinforcement Learning Hands On
+- Curiosity-driven Exploration by Self-supervised Prediction
+- Shuffle and Learn - Unsupervised Learning using Temporal Order Verification
