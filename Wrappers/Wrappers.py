@@ -5,13 +5,6 @@ source: Deep Re-inforcement Learning Hands On
 """
 
 """
-LIBRARIES
-"""
-
-!pip install gym
-!pip install tensorboardX
-
-"""
 FIRE RESET Environment
 Press fire!
 """
