@@ -7,11 +7,11 @@ source: Deep Re-inforcement Learning Hands On
 """
 LIBRARIES
 """
-if COLAB:
-    ! wget http://www.atarimania.com/roms/Roms.rar
-    ! mkdir /content/ROM/
-    ! unrar e /content/Roms.rar /content/ROM/
-    ! python -m atari_py.import_roms /content/ROM/
+
+! wget http://www.atarimania.com/roms/Roms.rar
+! mkdir /content/ROM/
+! unrar e /content/Roms.rar /content/ROM/
+! python -m atari_py.import_roms /content/ROM/
 
 import cv2
 import gym
