@@ -4,9 +4,9 @@
 LIBRARIES
 """
 
-if COLAB:
-    !apt-get install -y xvfb python-opengl > /dev/null 2>&1
-    !pip install gym pyvirtualdisplay > /dev/null 2>&1
+
+!apt-get install -y xvfb python-opengl > /dev/null 2>&1
+!pip install gym pyvirtualdisplay > /dev/null 2>&1
     
     
 import numpy as np
