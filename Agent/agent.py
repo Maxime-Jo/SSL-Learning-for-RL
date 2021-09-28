@@ -17,7 +17,7 @@ class Agent:
     def __init__(self, env, exp_buffer):                     # env & exp_buffer
         self.env = env                                       
         self.exp_buffer = exp_buffer
-        self._reset()
+        self._reset(env)
 
     def _reset(self, env):
         self.state = env.reset()
