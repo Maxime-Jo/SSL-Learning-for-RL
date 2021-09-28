@@ -3,6 +3,7 @@
 """
 source: Deep Re-inforcement Learning Hands On
 """
+import gym
 
 """
 FIRE RESET Environment
