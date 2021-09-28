@@ -39,7 +39,7 @@ MAX and SKIP Env
 - max the pixels during the 4 frames to get object movement
 """
     
-class MaxAndSkipEnv(gym.Wrapper):
+class MaxAndSkipEnv(gym.Wrapper, collections):
     def __init__(self, env=None, skip=4):
         """Return only every `skip`-th frame"""
         super(MaxAndSkipEnv, self).__init__(env)
