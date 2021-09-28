@@ -7,16 +7,9 @@ source: Deep Re-inforcement Learning Hands On
 """
 LIBRARIES
 """
-if COLAB:
-    !pip install gym
-    !pip install tensorboardX
 
-import cv2
-import gym
-import gym.spaces
-import numpy as np
-import collections
-
+!pip install gym
+!pip install tensorboardX
 
 """
 FIRE RESET Environment
