@@ -1,0 +1,51 @@
+
+# Model:
+
+## Scenarios
+- model 0 - Baseline - no curiosity
+
+- (model 1 - curiosity only - exploration no reward from env)
+
+- model 2 - curiosity + rewards --> no backpropagation
+- model 2' - curiosity + rewards --> own CNN
+- model 2'' - curiosity + rewards --> backpropagation on DQN CNN
+
+- model 2''' - #task state or #task action or both
+
+## Visualisation
+- learning curve of rewards (without curiosity reward) over episodes - by model 0, model 1, model 2
+  - log episode, rewards
+- learning curve of rewards (without curiosity reward) over time - by model 0, model 1, model 2
+  - log time, rewards
+- visualisation of actions in environment --> check curiosity effects --> by model 0, model 1, model 2 --> trajectories
+  - log actions
+- log loss, curiosity loss (action, state)
+
+## Hyper-parameters
+- greedy term rate?
+- weight for curiosity reward?
+- learning rate?
+- training frequency?
+
+## Improve our RL model?
+- uniform sampling of memory vs sampling based on reward?? --> there are documentations (copy paste) -- Faster training
+
+
+
+# Report
+## Abstract
+
+## Introduction
+
+## Related Work
+
+## Proposed Method
+
+## Experiments
+## Results
+## Conclusion
+## References
+
+
+
+
